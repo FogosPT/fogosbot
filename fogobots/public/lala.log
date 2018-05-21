@@ -1,0 +1,221 @@
+1RESPONSEArrayArrayEAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB1RESPONSEArrayArrayEAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB1RESPONSEArrayArrayEAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB1RESPONSEArrayArrayEAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB1RESPONSEArrayArrayEAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB1RESPONSEArrayArrayEAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB1RESPONSEArrayArrayEAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB1{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:09:28 GMT
+
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_id":"GFoFBq4wgPr"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:10:50 GMT
+
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_id":"CTG+DVzsC38"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:12:02 GMT
+
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_id":"BJx3Wl1WoDb"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAK3rKxwP57gSvAGdXehJG75Iaik8LTHCj0KxcObZCW2gtSnJYxfItdUo2xf90Ev2aFyWuZAZC69pDnUZAztmSR3lDWL5W8BR99jAPZCs9dsGbI5Tszprtx7H5tEX0UZADC3SaZApbvoSLbLCjQBH2LoYm9eixDo6b8uo9RWwrbZB"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:13:22 GMT
+
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_id":"ESzbO6Ei\/+U"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:39 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqjzU2ljePeLmIahf"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:41 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqjzb4VjePeSubXlq"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:42 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqjzg0FjePeXjrHCg"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:43 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqjzlv1jePecfNKzY"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:45 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqjzqwFjePehlNt3b"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:46 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqjzvj1jePemX5-LL"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:47 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqjz0V1jePerLuNxx"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:49 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqjz7lljePeyT5oFn"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:51 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj0CxFjePe5j4-oM"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:53 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj0J51jePfAt53h2"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Huh - you woke me up. What do you need?","quick_replies":[{"content_type":"text","title":"Tell a joke","payload":"joke","image_url":null},{"content_type":"text","title":"Give me a fancy quote","payload":"quote","image_url":null}]},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:55 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj0Ry1jePfIDb8yG"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:57 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj0ZLljePfPzTsG-"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:14:59 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj0gnFjePfXXFdzY"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:00 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj0lp1jePfcdG4t8"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Huh - you woke me up. What do you need?","quick_replies":[{"content_type":"text","title":"Tell a joke","payload":"joke","image_url":null},{"content_type":"text","title":"Give me a fancy quote","payload":"quote","image_url":null}]},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:01 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj0qT1jePfhIUGZb"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Huh - you woke me up. What do you need?","quick_replies":[{"content_type":"text","title":"Tell a joke","payload":"joke","image_url":null},{"content_type":"text","title":"Give me a fancy quote","payload":"quote","image_url":null}]},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:03 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj0xUljePfoGblbq"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Huh - you woke me up. What do you need?","quick_replies":[{"content_type":"text","title":"Tell a joke","payload":"joke","image_url":null},{"content_type":"text","title":"Give me a fancy quote","payload":"quote","image_url":null}]},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:05 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj06E1jePfwUWAmC"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:07 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj1BP1jePf3-xX26"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:08 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj1FzljePf8iRNPm"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"cenas!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:09 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj1KNVjePgA9bIpH"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"cenas!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:10 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj1O9ljePgFxxn2s"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:12 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj1T01jePgKhfWre"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Huh - you woke me up. What do you need?","quick_replies":[{"content_type":"text","title":"Tell a joke","payload":"joke","image_url":null},{"content_type":"text","title":"Give me a fancy quote","payload":"quote","image_url":null}]},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:13 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj1YyljePgPjbwMV"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:15 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj1gpVjePgXXOiiz"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"cenas!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:16 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj1mQ1jePgc-_5Hj"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Hello!"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sat, 19 May 2018 15:15:17 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79pqj1q7FjePghrkqzK"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"12:29 - Sem registo de inc\u00eandios ativos. https:\/\/fogos.pt #FogosPT #Status"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:29:44 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prpVLpFjfVADUdskf"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"12:29 - Sem registo de inc\u00eandios ativos. https:\/\/fogos.pt #FogosPT #Status"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:29:46 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prpVSsljfVAJlYIxg"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"12:29 - Sem registo de inc\u00eandios ativos. https:\/\/fogos.pt #FogosPT #Status"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:29:47 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prpVYOljfVAP9nm_B"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Distrito - Meios a\u00e9reos \/ inc\u00eandios ativos:\r\nPorto - 1\/1\r\n"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:32:17 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prpejNVjfVJa-uXTN"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"nelas"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:33:32 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prpjIV1jfVOAGpFgn"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Porto risco de inc\u00eandio: \r\n Hoje - Reduzido,\r\n Amanh\u00e3 - Reduzido,\r\n Depois - Reduzido\r\n #FogosPT #Risco"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:36:33 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prpuLUVjfVZDD_zAO"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Fa\u00e7a uma men\u00e7\u00e3o a esta conta com as palavras: \r\n estado - actual situa\u00e7\u00e3o operacional \r\n lista <concelho> - lista de inc\u00eandio no concelho \r\n stats - estatistica do dia \r\n risco <concelho> - risco de inc\u00eandio \r\n aereos - distritos com inc\u00eandios ativos\/n\u00ba de meios aereos"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:37:43 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prpycQFjfVdT_2c6b"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":null},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:41:10 GMT
+
+{"error":{"message":"(#100) Must send either message or state","type":"OAuthException","code":100,"error_subcode":2018015,"fbtrace_id":"Gk4liTY6T9n"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":null},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:41:11 GMT
+
+{"error":{"message":"(#100) Must send either message or state","type":"OAuthException","code":100,"error_subcode":2018015,"fbtrace_id":"FTIjAvFXbKz"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":null},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:41:12 GMT
+
+{"error":{"message":"(#100) Must send either message or state","type":"OAuthException","code":100,"error_subcode":2018015,"fbtrace_id":"Gv0j8JlGD1+"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":null},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:41:14 GMT
+
+{"error":{"message":"(#100) Must send either message or state","type":"OAuthException","code":100,"error_subcode":2018015,"fbtrace_id":"CsZu\/zBLqUY"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":null},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:41:15 GMT
+
+{"error":{"message":"(#100) Must send either message or state","type":"OAuthException","code":100,"error_subcode":2018015,"fbtrace_id":"HZ8V28eFEYC"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":null},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:41:20 GMT
+
+{"error":{"message":"(#100) Must send either message or state","type":"OAuthException","code":100,"error_subcode":2018015,"fbtrace_id":"HK684PHeZkQ"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":null},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:41:37 GMT
+
+{"error":{"message":"(#100) Must send either message or state","type":"OAuthException","code":100,"error_subcode":2018015,"fbtrace_id":"A\/DhcfBsqf+"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":null},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 400 Bad Request
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:43:01 GMT
+
+{"error":{"message":"(#100) Must send either message or state","type":"OAuthException","code":100,"error_subcode":2018015,"fbtrace_id":"Ao0t8PDISu1"}}21{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Porto, Gondomar, Melres E Medas - MH: 15 MT: 2 MA: 1 - Em Curso - Mato https:\/\/fogos.pt?fire=2018130080269 #FogosPT"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:44:18 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prqKaOVjfV1R9lDbi"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"12:44 - Sem registo de inc\u00eandios ativos em \"Porto\". https:\/\/fogos.pt #FogosPT #Status"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:44:19 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prqKfjFjfV1XTf06J"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Porto, Gondomar, Melres E Medas - MH: 15 MT: 2 MA: 1 - Em Curso - Mato https:\/\/fogos.pt?fire=2018130080269 #FogosPT"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:44:20 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prqKjdFjfV1bNcxG7"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Viana Do Castelo, Mon\u00e7\u00e3o, Tangil - MH: 13 MT: 3 MA: 1 - Despacho - Mato https:\/\/fogos.pt?fire=2018160020141 #FogosPT"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:44:42 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prqL7K1jfV2ycvcX0"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Envie uma mensagem parivada com as palavras: \r\n estado - actual situa\u00e7\u00e3o operacional \r\n lista <concelho> - lista de inc\u00eandio no concelho \r\n stats - estatistica do dia \r\n risco <concelho> - risco de inc\u00eandio \r\n aereos - distritos com inc\u00eandios ativos\/n\u00ba de meios aereos"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:45:06 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prqNZAVjfV4QrgnNn"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Desde as 00:00 de hoje registamos 28 ocorr\u00eancias de inc\u00eandios.\r\nPorto - 9\r\nViana Do Castelo - 7\r\nLisboa - 4\r\nBraga - 4\r\nAveiro - 4\r\n"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:46:45 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prqTZJljfV-Q6n4uz"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Envie uma mensagem parivada com as palavras: \r\n estado - actual situa\u00e7\u00e3o operacional \r\n lista <concelho> - lista de inc\u00eandio no concelho \r\n stats - estatistica do dia \r\n risco <concelho> - risco de inc\u00eandio \r\n aereos - distritos com inc\u00eandios ativos\/n\u00ba de meios aereos"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:46:51 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prqTwMFjfV-nyFEKp"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Viseu risco de inc\u00eandio: \r\n Hoje - Reduzido,\r\n Amanh\u00e3 - Reduzido,\r\n Depois - Reduzido\r\n #FogosPT #Risco"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:46:58 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prqUMHljfV_D2Kq82"}231{"messaging_type":"RESPONSE","recipient":{"id":"1867205093300269"},"message":{"text":"Distrito - Meios a\u00e9reos \/ inc\u00eandios ativos:\r\nPorto - 1\/1\r\nBraga - 0\/1\r\nViana Do Castelo - 1\/1\r\n"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:47:01 GMT
+
+{"recipient_id":"1867205093300269","message_id":"mid.$cAAL-kUAng79prqUW01jfV_OmOb4L"}231{"messaging_type":"RESPONSE","recipient":{"id":"1811703572202035"},"message":{"text":"Envie uma mensagem parivada com as palavras: \r\n estado - actual situa\u00e7\u00e3o operacional \r\n lista <concelho> - lista de inc\u00eandio no concelho \r\n stats - estatistica do dia \r\n risco <concelho> - risco de inc\u00eandio \r\n aereos - distritos com inc\u00eandios ativos\/n\u00ba de meios aereos"},"access_token":"EAAVFvSq8vFgBAGQGbBtmey6foaq5JTn6SE0o1HaKzl2F5sd1aJVhLr9r8v3SLqXAHmOSLaopN9kWiJex5XlGFBRvUQxyyKFpKodIiOPRm35alB4XzhDpiKhK5osTKJ5OGKkQJd9GCxEWIq2xC1O7oTUbVhnErIDiUWuUr55d5YoT3U7n"}HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Date:          Sun, 20 May 2018 11:54:32 GMT
+
+{"recipient_id":"1811703572202035","message_id":"mid.$cAAKkYhJU6o9prqv7b1jfWazUYN4c"}23
