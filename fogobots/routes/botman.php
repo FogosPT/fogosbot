@@ -45,6 +45,11 @@ $botman->hears('aereos', function ($bot) {
     $bot->reply($status);
 });
 
+$botman->hears('aéreos', function ($bot) {
+    $status = \App\Lib\LegacyApi::getAerial()['data'];
+    $bot->reply($status);
+});
+
 $botman->hears('aerial', function ($bot) {
     $status = \App\Lib\LegacyApi::getAerial()['data'];
     $bot->reply($status);
