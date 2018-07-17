@@ -14,7 +14,7 @@ use GuzzleHttp\Exception\RequestException;
 
 class LegacyApi
 {
-    private static $url = 'https://fogos.pt';
+    private static $url = 'https://api-lb.fogos.pt';
 
     private static function getClient()
     {
