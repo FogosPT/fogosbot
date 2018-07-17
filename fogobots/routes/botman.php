@@ -8,6 +8,11 @@ $botman->hears('ajuda', function ($bot) {
     $status .= "\r\n \r\n \r\nSend a private message with the words: \r\n status - current operational situation \r\n list <county> - list of fire in the county\r\n stats - daily stats \r\n risk <county> - fire risk \r\n aerial - districts with active fires/number of airways";
     $bot->reply($status);
 });
+
+$botman->hears('help', function ($bot) {
+    $status = "Send a private message with the words: \r\n status - current operational situation \r\n list <county> - list of fire in the county\r\n stats - daily stats \r\n risk <county> - fire risk \r\n aerial - districts with active fires/number of airways";
+    $bot->reply($status);
+});
 $botman->hears('Start conversation', BotManController::class.'@startConversation');
 
 $botman->hears('risco {concelho}', function ($bot, $concelho) {
