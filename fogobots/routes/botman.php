@@ -64,3 +64,8 @@ $botman->hears('estatisticas', function ($bot) {
     $status = \App\Lib\LegacyApi::getStats()['data'];
     $bot->reply($status);
 });
+
+$botman->hears('estatísticas', function ($bot) {
+    $status = \App\Lib\LegacyApi::getStats()['data'];
+    $bot->reply($status);
+});
