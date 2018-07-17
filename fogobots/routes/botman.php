@@ -5,7 +5,6 @@ $botman = resolve('botman');
 
 $botman->hears('ajuda', function ($bot) {
     $status = "Envie uma mensagem privada com as palavras: \r\n estado - actual situação operacional \r\n lista <concelho> - lista de incêndio no concelho \r\n estatisticas - estatistica do dia \r\n risco <concelho> - risco de incêndio \r\n aereos - distritos com incêndios ativos/nº de meios aereos";
-    $status .= "\r\n \r\n \r\nSend a private message with the words: \r\n status - current operational situation \r\n list <county> - list of fire in the county\r\n stats - daily stats \r\n risk <county> - fire risk \r\n aerial - districts with active fires/number of airways";
     $bot->reply($status);
 });
 
