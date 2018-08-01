@@ -14,10 +14,27 @@ $botman->hears('help', function ($bot) {
 });
 $botman->hears('Start conversation', BotManController::class.'@startConversation');
 
-$botman->hears('activos', function ($bot, $concelho) {
+$botman->hears('activos', function ($bot) {
     $status = \App\Lib\LegacyApi::getActive()['data'];
     $bot->reply($status);
 });
+
+$botman->hears('ativos', function ($bot) {
+    $status = \App\Lib\LegacyApi::getActive()['data'];
+    $bot->reply($status);
+});
+
+$botman->hears('lista', function ($bot) {
+    $status = \App\Lib\LegacyApi::getActive()['data'];
+    $bot->reply($status);
+});
+
+$botman->hears('active', function ($bot) {
+    $status = \App\Lib\LegacyApi::getActive()['data'];
+    $bot->reply($status);
+});
+
+
 
 $botman->hears('risco {concelho}', function ($bot, $concelho) {
     $status = \App\Lib\LegacyApi::getDangerLocation($concelho)['data'];
