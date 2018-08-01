@@ -46,7 +46,7 @@ $botman->hears('ativos', function ($bot) {
 
 });
 
-$botman->hears('activos', function ($bot) {
+$botman->hears('activo', function ($bot) {
     $fires = \App\Lib\LegacyApi::getActive()['data'];
 
     if (!empty($fires)) {
