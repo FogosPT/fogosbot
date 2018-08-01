@@ -43,6 +43,26 @@ class LegacyApi
         return $result;
     }
 
+    public static function getActive()
+    {
+        $client = self::getClient();
+
+        $url = self::$url . '/v1/active';
+
+        try {
+            $response = $client->request('GET', $url);
+
+        } catch (ClientException $e) {
+            return ['error' => $e->getMessage()];
+        } catch (RequestException $e) {
+            return ['error' => $e->getMessage()];
+        }
+
+        $body = $response->getBody();
+        $result = json_decode($body->getContents(), true);
+        return $result;
+    }
+
     public static function getAerial()
     {
         $client = self::getClient();

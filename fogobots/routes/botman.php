@@ -14,6 +14,11 @@ $botman->hears('help', function ($bot) {
 });
 $botman->hears('Start conversation', BotManController::class.'@startConversation');
 
+$botman->hears('activos', function ($bot, $concelho) {
+    $status = \App\Lib\LegacyApi::getActive()['data'];
+    $bot->reply($status);
+});
+
 $botman->hears('risco {concelho}', function ($bot, $concelho) {
     $status = \App\Lib\LegacyApi::getDangerLocation($concelho)['data'];
     $bot->reply($status);
