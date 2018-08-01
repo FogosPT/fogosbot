@@ -46,6 +46,38 @@ $botman->hears('ativos', function ($bot) {
 
 });
 
+$botman->hears('activos', function ($bot) {
+    $fires = \App\Lib\LegacyApi::getActive()['data'];
+
+    if (!empty($fires)) {
+        foreach ($fires as $f) {
+            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt?fire=' . $f['id'] . ' #FogosPT';
+            $bot->reply($status);
+        }
+    } else {
+        $date = date("H:i");
+        $status = "{$date} - Sem registo de incêndios ativos https://fogos.pt #FogosPT #Status";
+        $bot->reply($status);
+    }
+
+});
+
+$botman->hears('ativo', function ($bot) {
+    $fires = \App\Lib\LegacyApi::getActive()['data'];
+
+    if (!empty($fires)) {
+        foreach ($fires as $f) {
+            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt?fire=' . $f['id'] . ' #FogosPT';
+            $bot->reply($status);
+        }
+    } else {
+        $date = date("H:i");
+        $status = "{$date} - Sem registo de incêndios ativos https://fogos.pt #FogosPT #Status";
+        $bot->reply($status);
+    }
+
+});
+
 $botman->hears('lista', function ($bot) {
     $fires = \App\Lib\LegacyApi::getActive()['data'];
 

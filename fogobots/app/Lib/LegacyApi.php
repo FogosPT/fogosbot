@@ -5,6 +5,7 @@
  * Date: 03/05/2018
  * Time: 19:08
  */
+
 namespace App\Lib;
 
 use GuzzleHttp;
@@ -60,6 +61,7 @@ class LegacyApi
 
         $body = $response->getBody();
         $result = json_decode($body->getContents(), true);
+
         return $result;
     }
 
