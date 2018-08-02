@@ -13,8 +13,6 @@ class BotManController extends Controller
      */
     public function handle(Request $request)
     {
-        file_put_contents("test.txt",$request->getContent());
-
         $botman = app('botman');
 
         $botman->listen();

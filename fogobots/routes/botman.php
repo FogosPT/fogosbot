@@ -19,7 +19,7 @@ $botman->hears('activos', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt?fire=' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -35,7 +35,7 @@ $botman->hears('ativos', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt?fire=' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -51,7 +51,7 @@ $botman->hears('activo', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt?fire=' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -67,7 +67,7 @@ $botman->hears('ativo', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt?fire=' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -83,7 +83,7 @@ $botman->hears('lista', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt?fire=' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -99,7 +99,7 @@ $botman->hears('active', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt?fire=' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
