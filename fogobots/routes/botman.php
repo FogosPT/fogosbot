@@ -3,7 +3,7 @@ use App\Http\Controllers\BotManController;
 
 $botman = resolve('botman');
 
-$botman->hears('ajuda', function ($bot) {
+$botman->hears('comandos', function ($bot) {
     $status = "Envie uma mensagem privada com as palavras: \r\n estado - actual situação operacional \r\n activos - lista de incêndio ativos \r\n lista <concelho> - lista de incêndio no concelho \r\n estatisticas - estatistica do dia \r\n risco <concelho> - risco de incêndio \r\n aereos - distritos com incêndios ativos/nº de meios aereos";
     $bot->reply($status);
 });
@@ -13,7 +13,7 @@ $botman->hears('help', function ($bot) {
     $bot->reply($status);
 });
 $botman->hears('Start conversation', BotManController::class.'@startConversation');
-$botman->hears('ajuda2', BotManController::class.'@startHelpConversation');
+$botman->hears('ajuda', BotManController::class.'@startHelpConversation');
 
 $botman->hears('activos', function ($bot) {
     $fires = \App\Lib\LegacyApi::getActive()['data'];

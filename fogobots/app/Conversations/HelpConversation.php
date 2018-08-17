@@ -20,7 +20,7 @@ class HelpConversation extends Conversation
      */
     public function help()
     {
-        $question = Question::create("O que precisa de saber?")
+        $question = Question::create("Escolha uma opção abaixo ou envie uma mensagem com a palavra *comandos* para ver todas as opções.")
             ->fallback('Opps tente outra vez...')
             ->callbackId('ask_help')
             ->addButtons([
