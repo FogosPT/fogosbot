@@ -8,7 +8,6 @@
 
 namespace App\Conversations;
 
-use Illuminate\Foundation\Inspiring;
 use BotMan\BotMan\Messages\Incoming\Answer;
 use BotMan\BotMan\Messages\Outgoing\Question;
 use BotMan\BotMan\Messages\Outgoing\Actions\Button;
@@ -27,8 +26,9 @@ class HelpConversation extends Conversation
             ->addButtons([
                 Button::create('Incêndios activos')->value('active'),
                 Button::create('Estatísticas')->value('stats'),
-                Button::create('Meios Aéreos')->value('aereal'),
                 Button::create('Estado')->value('status'),
+                Button::create('Meios Aéreos')->value('aereal'),
+                Button::create('Risco')->value('risk')->additionalParameters(['concelho']),
             ]);
 
         return $this->ask($question, function (Answer $answer) {
@@ -47,7 +47,14 @@ class HelpConversation extends Conversation
                         $this->say($this->getStatus());
                         break;
                     default:
-                        $this->say('Ooopppss ocorreu um erro.');
+                        if (preg_match('/risk/', $answer->getValue())) {
+                            $concelho = str_replace('risk ', '', $answer->getValue());
+
+                            $status = \App\Lib\LegacyApi::getDangerLocation($concelho)['data'] ? \App\Lib\LegacyApi::getDangerLocation($concelho)['data'] : $concelho;
+                            $this->say($status);
+                        } else {
+                            $this->say('Ooopppss ocorreu um erro.');
+                        }
                 }
             }
         });
