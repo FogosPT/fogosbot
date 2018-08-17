@@ -83,9 +83,9 @@ return [
                     'type' => 'nested',
                     'call_to_actions' => [
                         [
-                            'title' => 'Pay Bill',
+                            'title' => 'Ajuda',
                             'type' => 'postback',
-                            'payload' => 'ask_help',
+                            'payload' => 'ajuda',
                         ],
                     ],
                 ],
