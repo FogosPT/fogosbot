@@ -42,7 +42,7 @@ return [
     | The payload which is sent when the Get Started Button is clicked.
     |
     */
-    'start_button_payload' => 'GET_STARTED',
+    'start_button_payload' => 'ajuda',
 
     /*
     |--------------------------------------------------------------------------
@@ -79,20 +79,20 @@ return [
             'composer_input_disabled' => 'true',
             'call_to_actions' => [
                 [
-                    'title' => 'My Account',
+                    'title' => 'Ajuda',
                     'type' => 'nested',
                     'call_to_actions' => [
                         [
                             'title' => 'Pay Bill',
                             'type' => 'postback',
-                            'payload' => 'PAYBILL_PAYLOAD',
+                            'payload' => 'ask_help',
                         ],
                     ],
                 ],
                 [
                     'type' => 'web_url',
-                    'title' => 'Latest News',
-                    'url' => 'http://botman.io',
+                    'title' => 'Fogos.pt',
+                    'url' => 'http://fogos.pt',
                     'webview_height_ratio' => 'full',
                 ],
             ],
@@ -108,6 +108,6 @@ return [
     |
     */
     'whitelisted_domains' => [
-        'https://petersfancyapparel.com',
+        'https://fogos.pt',
     ],
 ];
