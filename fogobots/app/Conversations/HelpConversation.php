@@ -28,7 +28,7 @@ class HelpConversation extends Conversation
                 Button::create('Estatísticas')->value('stats'),
                 Button::create('Estado')->value('status'),
                 Button::create('Meios Aéreos')->value('aereal'),
-                Button::create('Risco')->value('risk')->additionalParameters(['concelho']),
+//                Button::create('Risco')->value('risk')->additionalParameters(['concelho']),
             ]);
 
         return $this->ask($question, function (Answer $answer) {
