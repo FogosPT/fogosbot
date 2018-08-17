@@ -23,20 +23,28 @@ class HelpConversation extends Conversation
     {
         $question = Question::create("O que precisa de saber?")
             ->fallback('Opps tente outra vez...')
-            ->callbackId('ask_reason')
+            ->callbackId('ask_help')
             ->addButtons([
                 Button::create('Incêndios activos')->value('active'),
                 Button::create('Estatísticas')->value('stats'),
+                Button::create('Meios Aéreos')->value('aereal'),
+                Button::create('Estado')->value('status'),
             ]);
 
         return $this->ask($question, function (Answer $answer) {
             if ($answer->isInteractiveMessageReply()) {
-                switch ($answer->getValue()){
+                switch ($answer->getValue()) {
                     case 'active':
                         $this->say($this->getActive());
                         break;
                     case 'stats':
                         $this->say($this->getStats());
+                        break;
+                    case 'aereal':
+                        $this->say($this->getAereal());
+                        break;
+                    case 'status':
+                        $this->say($this->getStatus());
                         break;
                     default:
                         $this->say('Ooopppss ocorreu um erro.');
@@ -64,6 +72,20 @@ class HelpConversation extends Conversation
     private function getStats()
     {
         $status = \App\Lib\LegacyApi::getStats()['data'];
+
+        return $status;
+    }
+
+    private function getAereal()
+    {
+        $status = \App\Lib\LegacyApi::getAerial()['data'];
+
+        return $status;
+    }
+
+    private function getStatus()
+    {
+        $status = \App\Lib\LegacyApi::getStatus()['data'];
 
         return $status;
     }
