@@ -13,6 +13,7 @@ $botman->hears('help', function ($bot) {
     $bot->reply($status);
 });
 $botman->hears('Start conversation', BotManController::class.'@startConversation');
+$botman->hears('ajuda2', BotManController::class.'@startHelpConversation');
 
 $botman->hears('activos', function ($bot) {
     $fires = \App\Lib\LegacyApi::getActive()['data'];
