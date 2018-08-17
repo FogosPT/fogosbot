@@ -35,7 +35,7 @@ class HelpConversation extends Conversation
             if ($answer->isInteractiveMessageReply()) {
                 switch ($answer->getValue()) {
                     case 'active':
-                        $this->say($this->getActive());
+                        $this->getActive();
                         break;
                     case 'stats':
                         $this->say($this->getStats());
@@ -67,6 +67,7 @@ class HelpConversation extends Conversation
         if (!empty($fires)) {
             foreach ($fires as $f) {
                 $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
+                $this->say($status);
             }
         } else {
             $date = date("H:i");
