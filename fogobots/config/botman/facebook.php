@@ -80,14 +80,8 @@ return [
             'call_to_actions' => [
                 [
                     'title' => 'Ajuda',
-                    'type' => 'nested',
-                    'call_to_actions' => [
-                        [
-                            'title' => 'Ajuda',
-                            'type' => 'postback',
-                            'payload' => 'ajuda',
-                        ],
-                    ],
+                    'type' => 'postback',
+                    'payload' => 'ajuda',
                 ],
                 [
                     'type' => 'web_url',
