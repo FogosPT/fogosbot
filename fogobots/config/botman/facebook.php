@@ -84,6 +84,11 @@ return [
                     'payload' => 'ajuda',
                 ],
                 [
+                    'title' => 'Incêndios activos',
+                    'type' => 'postback',
+                    'payload' => 'activos',
+                ],
+                [
                     'type' => 'web_url',
                     'title' => 'Fogos.pt',
                     'url' => 'http://fogos.pt',
