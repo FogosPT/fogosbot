@@ -14,8 +14,6 @@ $botman->hears('help', function ($bot) {
 });
 $botman->hears('Start conversation', BotManController::class.'@startConversation');
 $botman->hears('ajuda', BotManController::class.'@startHelpConversation');
-$botman->hears('Ajuda', BotManController::class.'@startHelpConversation');
-$botman->hears('AJUDA', BotManController::class.'@startHelpConversation');
 
 $botman->hears('activos', function ($bot) {
     $fires = \App\Lib\LegacyApi::getActive()['data'];
