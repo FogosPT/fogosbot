@@ -66,7 +66,7 @@ class HelpConversation extends Conversation
 
         if (!empty($fires)) {
             foreach ($fires as $f) {
-                $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
+                $status = $f['location'] . ':%0A 👨‍🚒: ' . $f['man'] . '%0A 🚒: ' . $f['terrain'] . '%0A 🚁: ' . $f['aerial'] . '%0A ➡️ ' . $f['status'] . '%0A  ➡️' . $f['natureza'] . ' %0A  https://fogos.pt/fogo/' . $f['id'] . ' %0A #FogosPT';
                 $this->say($status);
             }
         } else {

@@ -20,7 +20,7 @@ $botman->hears('activos', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ':' . PHP_EOL . ' 👨‍🚒: ' . $f['man'] . '' . PHP_EOL . ' 🚒: ' . $f['terrain'] . '' . PHP_EOL . ' 🚁: ' . $f['aerial'] . '' . PHP_EOL . ' ➡️ ' . $f['status'] . '' . PHP_EOL . ' ➡️ ' . $f['natureza'] . ' ' . PHP_EOL . '  https://fogos.pt/fogo/' . $f['id'] . ' ' . PHP_EOL . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -36,7 +36,7 @@ $botman->hears('ativos', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ':' . PHP_EOL . ' 👨‍🚒: ' . $f['man'] . '' . PHP_EOL . ' 🚒: ' . $f['terrain'] . '' . PHP_EOL . ' 🚁: ' . $f['aerial'] . '' . PHP_EOL . ' ➡️ ' . $f['status'] . '' . PHP_EOL . ' ➡️ ' . $f['natureza'] . ' ' . PHP_EOL . '  https://fogos.pt/fogo/' . $f['id'] . ' ' . PHP_EOL . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -52,7 +52,7 @@ $botman->hears('activo', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ':' . PHP_EOL . ' 👨‍🚒: ' . $f['man'] . '' . PHP_EOL . ' 🚒: ' . $f['terrain'] . '' . PHP_EOL . ' 🚁: ' . $f['aerial'] . '' . PHP_EOL . ' ➡️ ' . $f['status'] . '' . PHP_EOL . ' ➡️ ' . $f['natureza'] . ' ' . PHP_EOL . '  https://fogos.pt/fogo/' . $f['id'] . ' ' . PHP_EOL . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -68,7 +68,7 @@ $botman->hears('ativo', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ':' . PHP_EOL . ' 👨‍🚒: ' . $f['man'] . '' . PHP_EOL . ' 🚒: ' . $f['terrain'] . '' . PHP_EOL . ' 🚁: ' . $f['aerial'] . '' . PHP_EOL . ' ➡️ ' . $f['status'] . '' . PHP_EOL . ' ➡️ ' . $f['natureza'] . ' ' . PHP_EOL . '  https://fogos.pt/fogo/' . $f['id'] . ' ' . PHP_EOL . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -84,7 +84,7 @@ $botman->hears('lista', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ':' . PHP_EOL . ' 👨‍🚒: ' . $f['man'] . '' . PHP_EOL . ' 🚒: ' . $f['terrain'] . '' . PHP_EOL . ' 🚁: ' . $f['aerial'] . '' . PHP_EOL . ' ➡️ ' . $f['status'] . '' . PHP_EOL . ' ➡️ ' . $f['natureza'] . ' ' . PHP_EOL . '  https://fogos.pt/fogo/' . $f['id'] . ' ' . PHP_EOL . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -100,7 +100,7 @@ $botman->hears('active', function ($bot) {
 
     if (!empty($fires)) {
         foreach ($fires as $f) {
-            $status = $f['location'] . ' - MH: ' . $f['man'] . ' MT: ' . $f['terrain'] . ' MA: ' . $f['aerial'] . ' - ' . $f['status'] . ' - ' . $f['natureza'] . ' https://fogos.pt/fogo/' . $f['id'] . ' #FogosPT';
+            $status = $f['location'] . ':' . PHP_EOL . ' 👨‍🚒: ' . $f['man'] . '' . PHP_EOL . ' 🚒: ' . $f['terrain'] . '' . PHP_EOL . ' 🚁: ' . $f['aerial'] . '' . PHP_EOL . ' ➡️ ' . $f['status'] . '' . PHP_EOL . ' ➡️ ' . $f['natureza'] . ' ' . PHP_EOL . '  https://fogos.pt/fogo/' . $f['id'] . ' ' . PHP_EOL . ' #FogosPT';
             $bot->reply($status);
         }
     } else {
@@ -111,6 +111,21 @@ $botman->hears('active', function ($bot) {
 
 });
 
+$botman->hears('/activo', function ($bot) {
+    $fires = \App\Lib\LegacyApi::getActive()['data'];
+
+    if (!empty($fires)) {
+        foreach ($fires as $f) {
+            $status = $f['location'] . ':' . PHP_EOL . ' 👨‍🚒: ' . $f['man'] . '' . PHP_EOL . ' 🚒: ' . $f['terrain'] . '' . PHP_EOL . ' 🚁: ' . $f['aerial'] . '' . PHP_EOL . ' ➡️ ' . $f['status'] . '' . PHP_EOL . ' ➡️ ' . $f['natureza'] . ' ' . PHP_EOL . '  https://fogos.pt/fogo/' . $f['id'] . ' ' . PHP_EOL . ' #FogosPT';
+            $bot->reply($status);
+        }
+    } else {
+        $date = date("H:i");
+        $status = "{$date} - Sem registo de incêndios ativos https://fogos.pt #FogosPT #Status";
+        $bot->reply($status);
+    }
+
+});
 
 
 $botman->hears('risco {concelho}', function ($bot, $concelho) {
